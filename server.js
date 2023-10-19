@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require('express');
-const routes = require('./fantastic-umbrella/Develop/routes'); // Check the path
-const sequelize = require('./fantastic-umbrella/Develop/config/connection'); // Check the path
+const routes = require('./fantastic-umbrella/Develop/routes'); 
+const sequelize = require('./fantastic-umbrella/Develop/config/connection'); 
 
 const app = express();
 const PORT = process.env.PORT || 3001;
